@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+    </style>
+</head>
+<body>
+    <p id="temp1">Sample text</p>
+    <p id="temp2">Sample text2</p>
+    <button onclick="setColor();setColor2()">Change</button>
+
+
+<script>
+
+function setColor() {
+    myInterval = setInterval(setColor, 1000);
+  var x = document.getElementById("temp1");
+   x.style.color = x.style.color == "yellow" ? "pink" : "yellow";
+}
+function setColor2() {
+    myInterval = setInterval(setColor2, 1000);
+  let x = document.getElementById("temp2");
+   x.style.color = x.style.color == "yellow" ? "pink" : "yellow";
+} 
+</script>
+
+</body>
+</html>
