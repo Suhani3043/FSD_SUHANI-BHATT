@@ -1,0 +1,5 @@
+https://www.youtube.com/watch?v=micpYCpbRkI
+
+dashboard:
+https://davur.dexignzone.com/dashboard/page-order-list.html
+https://uena.dexignzone.com/xhtml/order-detail.html
